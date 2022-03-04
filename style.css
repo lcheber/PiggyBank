@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html, body {
+    margin: 0px;
+    background-color: pink;
+    font-family: 'Nunito', sans-serif;
+}
+
+#main {
+    position: fixed;
+    /* top: 50%; */
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 0%);
+  }
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+
+form {
+    height: 250px;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+#table tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+td:nth-child(4) {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    float:right;
+}
